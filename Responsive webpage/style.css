@@ -1,0 +1,116 @@
+                      /* *********************  Header  ********************* */
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+.header{
+    overflow: hidden;
+    background-color: white;
+    padding: 20px 10px;
+}
+
+.header .img{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.header a{
+    float: left;
+    color: black;
+    font-size: 18px;
+    text-align: center;
+    padding: 12px;
+    line-height: 12px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.header a:hover{
+    background-color: rgb(68, 66, 199);
+    color: white;
+}
+
+.header-right{
+    float: right;
+}
+
+.header-right a.contact{
+    border: 3px solid rgb(68, 66, 199);
+    border-radius: 5PX;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+@media screen and (max-width: 500px) {
+    .header a{
+        float: none;
+        display: block;
+        text-align: left;
+    }
+    .header-right{
+        float: none;
+    }
+}
+
+
+                         /* *******************Body******************** */
+                         
+.image-text-container {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+.image-text-container img {
+    width: 800px;
+    filter: drop-shadow(30px 40px 30px rgb(161, 65, 170));
+  }
+  
+.text-content {
+    font-size: 20px;
+    padding-left: 20px;
+  }
+
+.text-content p span{
+    display: block;
+}
+
+.para-1{
+    font-size: 40px;
+    line-height: 40px;
+    color: rgb(56, 38, 59);
+}
+
+.para-2{
+    font-size: 40px;
+    line-height: 20px;
+    color: rgb(161, 65, 170);
+}
+
+.button{
+    color: rgb(255, 255, 255);
+    background-color: rgb(68, 66, 199);
+    border-radius: 4px;
+    margin: 30px 0px 30px;
+    padding: 7px 30px 7px 30px;
+}
+.button:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border: 3px solid rgb(68, 66, 199);
+}
+
+  @media (max-width: 768px) {
+    img {
+      max-width: 50%;
+    }
+  
+    .text-content {
+      font-size: 10px;
+    }
+  } 
